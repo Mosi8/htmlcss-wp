@@ -1,22 +1,51 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(133, 133, 133);
 }
 body{
     height: 750px;
-    width: 700px;
-    margin: 30px auto ;
+    width: 80%;
+    margin: 0px auto ;
 }  
 
-header{
-    height: 13%;
-    background-color: rgb(227, 111, 230);
-    margin-bottom: 2%;
-    
+#logo{
+    height: 50px;
+    border-right: 1px solid rgb(229, 229, 229);
+    padding-right: 20px;
 }
+
+nav{
+    margin: 25px 0px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 2%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
 
 main{
     height: 80%;
+    margin-bottom: 2%;
 }
 .first{
     height: 38%;
@@ -26,7 +55,7 @@ main{
 .second{
     height: 59%;
     background-color: rgb(58, 132, 249);
-    margin-bottom: 1%;
+    margin-bottom: 2%;
     padding-bottom: 3%;
     
 }
