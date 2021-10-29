@@ -36,38 +36,31 @@ nav a:hover{
     text-decoration: underline;
 }
 
-
-
-
-
-
-
-
-main{
-    height: 80%;
-    margin-bottom: 2%;
-}
-.first{
-    height: 38%;
-    background-color: rgb(225, 216, 122);
-    margin-bottom: 2%;
-}
-.second{
-    height: 59%;
-    background-color: rgb(58, 132, 249);
-    margin-bottom: 2%;
-    padding-bottom: 3%;
-    
+.banner{
+    height: 500px;
+    background-image: url(img/banner.jpg);
+    background-position: center;
+    position: relative;
+    border-radius: 10px;
 }
 
-.second::after{
+#banner-text{
+    width: 50%;
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+    color: rgb(255, 255, 255);
+}
+
+
+main::after{
     content: "";
     clear: both;
     display: table;
 } 
    
 footer{
-    height: 5%;
+    height: 30px;
     background-color: rgb(134, 0, 255);
 }
 
