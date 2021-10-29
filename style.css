@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    height: 750px;
+    width: 700px;
+    margin: 30px auto ;
+}  
+
+header{
+    height: 13%;
+    background-color: rgb(227, 111, 230);
+    margin-bottom: 2%;
+    
+}
+
+main{
+    height: 80%;
+}
+.first{
+    height: 38%;
+    background-color: rgb(225, 216, 122);
+    margin-bottom: 2%;
+}
+.second{
+    height: 59%;
+    background-color: rgb(58, 132, 249);
+    margin-bottom: 1%;
+    padding-bottom: 3%;
+    
+}
+
+.second::after{
+    content: "";
+    clear: both;
+    display: table;
+} 
+   
+footer{
+    height: 5%;
+    background-color: rgb(134, 0, 255);
+}
+
+#riga{
+    height: 15%;
+    background-color: rgb(172, 207, 231);
+    margin-bottom: 2%;
+}
+
+#colonna1{
+    float: left;
+    background-color: rgb(172, 207, 231);
+    width: 18%;
+    height: 83%;
+}
+
+#colonna2{
+    background-color: rgb(172, 207, 231);
+    width: 60%;
+    height: 83%; 
+    margin: 0 2%;
+    display: inline-block;
+}
+
+#colonna3{
+    float: right;
+    background-color: rgb(172, 207, 231);
+    width: 18%;
+    height: 83%;
+}
